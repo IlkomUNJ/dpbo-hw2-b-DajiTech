@@ -1,0 +1,6 @@
+project('MessageApp', 'cpp')
+
+executable('message_app', 
+  sources: ['main.cpp', 'User.cpp', 'Contact.cpp', 'Storage.cpp', 'Menu.cpp'],
+  install: true
+)
